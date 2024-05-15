@@ -1,0 +1,13 @@
+name: fraud-detection-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - gradio
+  - jupyter
+  - pip:
+    - imbalanced-learn
